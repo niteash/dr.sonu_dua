@@ -1,0 +1,219 @@
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
+
+
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+.home-background{
+background-color: #f5f5f5;
+}
+
+
+.row>* {
+    padding: 0 !important;
+}
+
+
+
+.new-contact{
+    width: 60% !important;
+}
+
+.home-img{
+    // width: 22rem;
+    // height: 23rem;
+    // margin-top: 5rem;
+}
+.height{
+    height: 30rem;
+}
+
+.bg-hero{
+    background-color: #ededed;
+}
+.bg-award{
+    background-color: #ededed;
+}
+body{
+    overflow-x: hidden;
+}
+
+.card-small{
+    background-color:#ededed !important;
+}
+
+.hero-padding{
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.list-group{
+    background-color: #000000;
+    --bs-list-group-active-bg : #000000 !important;
+    --bs-list-group-active-border-color : #000000 !important;
+}
+.bg-hero-sec{
+    background-color: #000000;
+}
+
+#list-bg{
+    --bs-list-group-bg: #000000 !important;
+    --bs-list-group-color: #f5f5f5 !important;
+}
+
+
+
+@media only screen and (max-width : 1470px){
+    #international-font{
+        font-size : 7rem;
+    }
+
+   
+}
+
+@media only screen and (max-width : 1219px){
+    #international-font{
+        font-size : 5rem;
+    }
+
+   
+}
+
+
+
+
+@media only screen and (max-width : 1200px){
+    .bg-hero{
+      background-color: white;
+    }
+
+    #award-text{
+        font-size: 13px !important;
+        margin-left: 4rem;
+    }
+    
+
+   
+}
+
+@media only screen and (max-width : 992px){
+    .bg-hero{
+      background-color: white;
+    }
+
+    #award-text{
+        font-size: 13px !important;
+        margin-right: 7rem;
+    }
+    
+
+   
+}
+
+
+@media only screen and (max-width : 1196px){
+    #international-font{
+        font-size : 4rem;
+    }
+
+
+   
+}
+
+@media only screen and (max-width : 991px){
+    #international-font{
+        font-size : 4rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+
+
+    }
+
+    #re_img{
+        width: 15rem !important;
+
+    }
+
+   
+}
+
+@media only screen and (max-width : 766px){
+    #international-font{
+        font-size : 4rem;
+    }
+
+   
+}
+
+@media only screen and (max-width : 1470px){
+   .hero-card{
+    width: 25rem !important;
+   }
+
+   
+}
+
+
+@media only screen and (max-width : 1400px){
+   .home-tabs{
+    padding: 0.4rem !important;
+    margin:0.5rem !important;
+   }
+ 
+    
+ }
+
+ @media only screen and (max-width : 1219px){
+    .buy-card{
+        width: 28rem !important;
+        border-radius: 30px !important;
+      position: relative;
+      left:3rem;
+    }
+  
+     
+  }
+
+.bg-black{
+    --bs-bg-opacity: 0 !important;
+}
+
+  @media only screen and (max-width : 1200px){
+    .buy-card{
+        width: 22rem !important;
+        border-radius: 30px !important;
+      position: relative;
+      left: 5rem;
+    }
+  
+     
+  }
+
+
+
+@media only screen and (max-width : 575px){
+    .small-nav{
+        display: none !important;
+    }
+
+    #inter-img{
+        display: none !important;
+    }
+
+    #international-font{
+        font-size: 40px !important;
+    }
+  
+     
+  }
+
+  @media only screen and (max-width : 500px){
+  
+    #international-font{
+        font-size: 30px !important;
+    }
+  
+     
+  }
+
