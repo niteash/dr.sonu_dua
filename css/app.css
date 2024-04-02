@@ -96,6 +96,14 @@ body {
     margin-bottom: 4rem;
   }
 }
+@media only screen and (max-width: 575px) {
+  #my-img {
+    width: 15rem !important;
+  }
+  #btn-margin {
+    margin-bottom: 4rem;
+  }
+}
 @media only screen and (max-width: 1196px) {
   #international-font {
     font-size: 4rem;
