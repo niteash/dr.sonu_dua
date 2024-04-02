@@ -63,21 +63,37 @@ body {
   }
 }
 @media only screen and (max-width: 1200px) {
-  .bg-hero {
-    background-color: white;
-  }
   #award-text {
     font-size: 13px !important;
     margin-left: 4rem;
   }
+  #academic-text {
+    width: 75%;
+  }
 }
 @media only screen and (max-width: 992px) {
-  .bg-hero {
-    background-color: white;
-  }
   #award-text {
-    font-size: 13px !important;
+    font-size: 16px !important;
     margin-right: 7rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  #award-text {
+    font-size: 14px !important;
+    margin-right: 7rem;
+  }
+}
+@media only screen and (max-width: 575px) {
+  #img-award {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #my-img {
+    width: 15rem !important;
+  }
+  #btn-margin {
+    margin-bottom: 4rem;
   }
 }
 @media only screen and (max-width: 1196px) {
@@ -142,6 +158,9 @@ body {
   }
   #international-font {
     font-size: 40px !important;
+  }
+  #changing_to_block {
+    display: block !important;
   }
 }
 @media only screen and (max-width: 500px) {
