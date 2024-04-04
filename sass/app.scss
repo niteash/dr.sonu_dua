@@ -170,6 +170,11 @@ body{
 
 }
 
+@media only screen and (max-width : 743px){
+    #nav-text{
+        display: none !important;
+    }
+}
 
 
 @media only screen and (max-width : 1196px){
