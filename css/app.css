@@ -137,6 +137,35 @@ body {
     font-size: 4rem;
   }
 }
+@media only screen and (max-width: 360px) {
+  #international-font {
+    font-size: 25px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95% !important;
+  }
+}
+@media only screen and (max-width: 470px) {
+  #international-font {
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80% !important;
+  }
+}
+@media only screen and (max-width: 410px) {
+  #international-font {
+    font-size: 30px;
+  }
+  #international-font {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90% !important;
+  }
+}
 @media only screen and (max-width: 991px) {
   #international-font {
     font-size: 4rem;
@@ -193,18 +222,13 @@ body {
     display: none !important;
   }
   #international-font {
-    font-size: 40px !important;
+    font-size: 40px;
   }
   #changing_to_block {
     display: block !important;
   }
   #margin-left {
     margin-left: 16px !important;
-  }
-}
-@media only screen and (max-width: 500px) {
-  #international-font {
-    font-size: 30px !important;
   }
 }
 
