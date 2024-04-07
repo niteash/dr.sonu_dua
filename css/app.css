@@ -62,6 +62,14 @@ body {
     font-size: 5rem;
   }
 }
+@media only screen and (max-width: 341px) {
+  #home-font {
+    font-size: 15px !important;
+  }
+  #parent-font {
+    font-size: 15px !important;
+  }
+}
 @media only screen and (max-width: 1200px) {
   #award-text {
     font-size: 13px !important;
@@ -85,6 +93,9 @@ body {
     font-size: 14px !important;
     margin-right: 7rem;
   }
+  #home-font {
+    font-size: 16px !important;
+  }
 }
 @media only screen and (max-width: 575px) {
   #img-award {
@@ -97,6 +108,11 @@ body {
   }
   #btn-margin {
     margin-bottom: 4rem;
+  }
+  #home-font {
+    font-size: 13px !important;
+    font-weight: bold !important;
+    margin-top: 10px;
   }
 }
 @media only screen and (max-width: 575px) {
