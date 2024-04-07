@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head id="main">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guest Lecture</title>
@@ -14,20 +14,22 @@
 
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-         <div class="container col-12 mb-3 ">
-          <div class="btn m-0 btn-outline-white" >
-       <a href="./index.html">
-     
-        <button class=" text-white btn btn-dark position-sticky top-0 h-25 mt-3 ms-3 fs-5 ">Back</button>
-      </i>
-       
-       </a>
+  
+        <div class="container-fluid">
+            <div class="row">
+             <div class="container col-12 mb-3 ">
+              <div class="btn m-0 btn-outline-white" >
+           <a href="./index.html">
+         
+            <button class=" text-white btn btn-dark position-sticky top-0 h-25 mt-3 ms-3 fs-5 ">Back</button>
+          </i>
+           
+           </a>
+              </div>
+             </div>
+            </div>
           </div>
-         </div>
-        </div>
-      </div>
+    
 
 
  <div class="container-fluid bg-hero-sec pb-5 ">
@@ -209,4 +211,14 @@
 <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
 </html>
+<script>
+      const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
+});
+
+</script>
