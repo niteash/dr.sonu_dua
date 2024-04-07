@@ -231,5 +231,18 @@ body {
     margin-left: 16px !important;
   }
 }
+@media only screen and (max-width: 393px) {
+  #right-align {
+    right: 3rem !important;
+  }
+  #center {
+    display: flex;
+    justify-content: center;
+  }
+  #award-text {
+    width: 100%;
+    margin-left: 0;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
