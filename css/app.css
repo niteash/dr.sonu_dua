@@ -8,6 +8,10 @@
   padding: 0 !important;
 }
 
+.list-group {
+  --bs-list-group-border-color:#000000 !important;
+}
+
 .new-contact {
   width: 60% !important;
 }
@@ -193,6 +197,9 @@ body {
   }
   #changing_to_block {
     display: block !important;
+  }
+  #margin-left {
+    margin-left: 16px !important;
   }
 }
 @media only screen and (max-width: 500px) {
