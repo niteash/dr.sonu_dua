@@ -3,9 +3,7 @@
 
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-#img-fill{
-    width: -webkit-fill-available !important;
-}
+
 
 .home-background{
 background-color: #f5f5f5;
@@ -109,9 +107,10 @@ body{
         font-size: 13px !important;
         margin-left: 4rem;
     }
+   
 
     #academic-text{
-        width: 75%;
+        width: 100%;
     }    
     .bg-hero{
         background-color: white;
@@ -156,6 +155,11 @@ body{
        
         
     }
+
+    #img-fill{
+        width: -webkit-fill-available !important;
+        margin-left: 1.5rem;
+    }
     
 
    
@@ -177,6 +181,11 @@ body{
         font-size: 13px !important;
         font-weight: bold !important;
         margin-top: 10px;
+    }
+
+    #img-fill{
+        width: -webkit-fill-available !important;
+        margin-left: 1.5rem;
     }
 
 }
@@ -244,6 +253,11 @@ body{
         margin-right: auto;
         width: 90% !important;
 
+    }
+
+    #img-fill{
+        width: -webkit-fill-available !important;
+        margin-left: 1.5rem;
     }
 }
 
@@ -366,11 +380,23 @@ body{
     #no-border{
         --bs-border-width: none;
     }
+
+    #academic-text {
+       
+        position: relative;
+        right: 1.3rem;
+        font-size: 19px;
+    }
   }
 
   @media only screen and (max-width: 767px){
     #no-border{
         --bs-border-width: none;
+    }
+
+    #img-fill{
+        width: -webkit-fill-available !important;
+        margin-left: 1.5rem;
     }
   }
 
@@ -395,8 +421,17 @@ body{
     #no-border{
         --bs-border-width: none;
     }
+
     #academic-text {
         width: 100%;
+        position: relative;
+        right: 1.3rem;
+        font-size: 19px;
+    }
+
+    #img-fill{
+        width: -webkit-fill-available !important;
+        margin-left: 1.5rem;
     }
   }
 
